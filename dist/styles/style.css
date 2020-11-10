@@ -87,7 +87,7 @@ img {
 
 #img1 {
     grid-area: image;
-    background-image: url("imgs/aim_game.png");
+    background-image: url("./imgs/aim_game.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
