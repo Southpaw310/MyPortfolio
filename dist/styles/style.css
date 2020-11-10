@@ -55,9 +55,11 @@ img {
 .link-button {
     background-color: #4caf50;
     color: black;
+    font-weight: 800;
     text-decoration: none;
     padding: 10px;
     margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.9);
     border-radius: 5px;
 }
 
@@ -150,7 +152,6 @@ img {
 }
 .card {
     transition: 0.5s ease;
-    cursor: pointer;
     margin: 30px;
 }
 

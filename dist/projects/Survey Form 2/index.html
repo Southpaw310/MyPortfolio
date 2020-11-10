@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Survey Form</h1>
+        <p><i>Thank you for taking the time to help us improve</i></p>
+    </header>
+
+    <div class="container">
+        <form action="thankyou.html">
+
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="Enter your name" class="required" required><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="Enter your email" class="required" required><br>
+            
+            <label for="age">Age (optional)</label><br>
+            <input type="text" placeholder="Age" class="required"><br>
+            
+            <label for="role">Which option best describes your current role?</label><br>
+            <select name="role" id="roleSel">
+                <option value="empty" disabled selected value class="disabled">Select current role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select><br>
+            
+            <label for="recommend">Would you recommend us to a friend?</label><br>
+            <input type="radio" checked="checked" name="recommend">
+            <label for="recommend">Definitely</label><br>
+            <input type="radio" name="recommend">
+            <label for="recommend">Maybe</label><br>
+            <input type="radio" name="recommend">
+            <label for="recommend">Not sure</label><br><br>
+            
+            <label for="feature">What is your favorite feature of our site?</label><br>
+            <select name="feature" id="featureSel">
+                <option value="empty" disabled selected value class="disabled">Select an option</option>
+                <option value="Ease-of-use">Ease-of-use</option>
+                <option value="layout">Layout</option>
+                <option value="other">Other</option>
+            </select><br>
+            
+            <label for="improve">What would you like to see improved? <span>(Check all that apply)</span></label><br>
+            <input type="checkbox" name="improve" id="frontEnd">
+            <label for="frontEnd">Front-end Projects</label><br>
+            <input type="checkbox" name="improve" id="backEnd">
+            <label for="backEnd">Back-end Projects</label><br>
+            <input type="checkbox" name="improve" id="data">
+            <label for="data">Data Visualization</label><br>
+            <input type="checkbox" name="improve" id="challenge">
+            <label for="challenge">Challenges</label><br>
+            <input type="checkbox" name="improve" id="openSource">
+            <label for="openSource">Open Source Community</label><br>
+            <input type="checkbox" name="improve" id="glitter">
+            <label for="glitter">Glitter help rooms</label><br>
+            <input type="checkbox" name="improve" id="videos">
+            <label for="videos">Videos</label><br>
+            <input type="checkbox" name="improve" id="meetups">
+            <label for="meetups">City Meetups</label><br>
+            <input type="checkbox" name="improve" id="wiki">
+            <label for="wiki">Wiki</label><br>
+            <input type="checkbox" name="improve" id="forum">
+            <label for="forum">Forum</label><br>
+            <input type="checkbox" name="improve" id="addCourse">
+            <label for="addCourse">Additional Courses</label><br><br>
+            <label for="suggestions">Any comments or suggestions?</label><br>
+            <textarea id="suggestions" name="suggestions" rows="5" cols="20" placeholder="Enter your comment here..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

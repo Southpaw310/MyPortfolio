@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Aim Trainer</title>
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <h1>Test Your <span id="aim">Aim</span></h1>
+            <p>Click the squares as they appear!</p>
+            <span id="scoreHead">Score: </span><span id="score">0</span>
+        </header>
+
+        <h4>Time remaining: <span id="timer">0</span></h4>
+        <button id="play">Play</button>
+        <button id="reset" onclick="window.location.reload()">Reset</button><br> <!--When "Reset" is pressed, the page refreshes-->
+    </div>
+
+    <div id="square-container">
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
