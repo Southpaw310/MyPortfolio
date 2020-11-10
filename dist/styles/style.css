@@ -87,7 +87,7 @@ img {
 
 #img1 {
     grid-area: image;
-    background-image: url("./imgs/aim_game.png");
+    background-image: url("../imgs/aim_game.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -95,7 +95,7 @@ img {
 
 #img2 {
     grid-area: image;
-    background-image: url("./imgs/survey_form.png");
+    background-image: url("../imgs/survey_form.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -103,7 +103,7 @@ img {
 
 #img3 {
     grid-area: image;
-    background-image: url("./imgs/landing_page.png");
+    background-image: url("../imgs/landing_page.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
