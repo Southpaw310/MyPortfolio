@@ -287,6 +287,48 @@ img {
     display: none;
 }
 
+#skill-header {
+    text-align: center;
+}
+
+.section .skill {
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+}
+
+.skill .set {
+    background-color: #d7d9ce;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.skill .set:hover {
+    box-shadow: 0px 12px 16px #36363624;
+}
+
+.set span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 35%;
+}
+
+.set > h3 {
+    padding-block: 24px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.set .list {
+    padding-block: 15px;
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 800px) {
     .nav a:not(:first-child) {
@@ -322,6 +364,10 @@ img {
     .container {
         flex-direction: column;
     }
+
+    .skill {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -330,5 +376,11 @@ img {
         text-align: center;
         justify-content: center;
         padding: 50px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .skill {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
